@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-ClickerMain-1.0";
 const contentToCache = [
-    "Build/NNNN.loader.js",
-    "Build/NNNN.framework.js",
-    "Build/NNNN.data",
-    "Build/NNNN.wasm",
+    "Build/fdgdfg.loader.js",
+    "Build/fdgdfg.framework.js",
+    "Build/fdgdfg.data",
+    "Build/fdgdfg.wasm",
     "TemplateData/style.css"
 
 ];
