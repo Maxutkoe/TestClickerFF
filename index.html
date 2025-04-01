@@ -20,12 +20,17 @@
       <div id="unity-warning"> </div>
     </div>
     <script>
+    window.addEventListener("load", function () {
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+          debug.log("Test");
+        }
+      });
+      
+    </script>
+    <script>
       window.addEventListener("load", function () {
         if ("serviceWorker" in navigator) {
           navigator.serviceWorker.register("ServiceWorker.js");
-        }
-        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-          debug.log("Test")
         }
       });
 
